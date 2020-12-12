@@ -43,8 +43,11 @@ body {
   display: grid;
   grid-gap: 10px;
   grid-template-areas:
-    "nav nav"
-    "header header"
-    "main aside"
-    "footer footer";
+    "header header header"
+    "aside main aside"
+    "footer footer footer";
+}
+
+aside {
+  width: 200px;
 }
