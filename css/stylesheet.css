@@ -24,9 +24,6 @@ aside {
   min-height: 100px;
 }
 
-nav {
-  grid-area: nav;
-}
 header {
   grid-area: header;
 }
@@ -38,4 +35,13 @@ aside {
 }
 footer {
   grid-area: footer;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas:
+    "header header header"
+    "aside main right"
+    "footer footer footer";
 }
