@@ -9,13 +9,14 @@ section {
 }
 
 nav {
-  min-height: 30px;
+  height: 30px;
 }
 
 header,
 footer,
 aside {
   min-height: 100px;
+  min-width: 200px;
 }
 
 .home-section {
@@ -43,9 +44,9 @@ body {
   display: grid;
   grid-gap: 10px;
   grid-template-areas:
-    "header "
-    "aside main aside"
-    "footer";
+    "aside, header"
+    "aside, main"
+    "aside, footer";
 }
 
 aside {
