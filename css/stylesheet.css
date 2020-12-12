@@ -39,16 +39,3 @@ aside {
 footer {
   grid-area: footer;
 }
-
-body {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-areas:
-    "aside, header"
-    "aside, main"
-    "aside, footer";
-}
-
-aside {
-  width: 200px;
-}
